@@ -49,4 +49,8 @@ public class TwoWayList<T> extends ParentList<T>{
 			this.left_status = this.LEFT_ERR;
 		}
 	} //post-condition: cursor takes a new value
+	
+	public int get_left_status(){
+		return this.left_status;
+	}
 }
