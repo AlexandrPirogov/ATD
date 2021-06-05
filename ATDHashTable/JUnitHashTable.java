@@ -8,6 +8,7 @@ public class JUnitHashTable {
 
 	@Test
 	public void test() {
+		//тестил через отладку
 		MyHashTable<String> s = new MyHashTable<String>(String.class);
 		s.put("asd");
 		s.put("xxxx");
