@@ -1,0 +1,9 @@
+
+HashTable - HT
+
+x(new) = HT (С пустым массивом)
+
+PUT: HT X VALUE -> HT
+
+GET: HT X VALUE -> INTEGER
+
