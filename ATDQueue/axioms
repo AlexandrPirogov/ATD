@@ -1,0 +1,21 @@
+AXIOMS
+
+queue q;
+
+ x(new) = emptyQueue --A0
+ 
+ x(enqueue(q, item)) = queue   (enqueue: QUEUE  x ITEM -> QUEUE)
+ 
+ x(dequeue(q,item)) = queue    (dequeue: QUEUE x ITEM -> QUEUE)
+ 
+ x(remove(q, item)) = queue     (remove: QUEUE x ITEM -> QUEUE)
+ 
+ x(size(q)) = integer                 (size: QUEUE -> integer)
+ 
+ x(find(q, item)) = item              (find: QUEUE x ITEM -> item)
+ 
+ 
+ integer = size(enqueue(enqueue(new, 1)), 2))
+
+ 
+ 
