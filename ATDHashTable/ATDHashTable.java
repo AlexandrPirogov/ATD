@@ -13,11 +13,11 @@ public abstract class ATDHashTable<T> {
 	//creators
 	public ATDHashTable() {
 		// TODO Auto-generated constructor stub
-	}
+	} //создаём новую хэш-таблицу
 	
 	//commands
-	public abstract void put(T value);
+	public abstract void put(T value);//post-condition: added a new value to a hash-table
 	
 	//query
-	public abstract int get(T value);
+	public abstract int get(T value);//post-condition: returns id of value
 }
