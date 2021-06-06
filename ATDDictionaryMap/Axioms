@@ -1,0 +1,11 @@
+Axioms
+
+x(new) -> new DictionaryMap
+
+insert: DictionaryMap x key x value -> DictionaryMap
+
+remove: DictionaryMap x value -> DictionaryMap
+
+x(get) -> key
+
+x(find) -> value
