@@ -1,0 +1,10 @@
+x(new): 0 
+
+Обозначения: PowerSet - PS
+
+A0: x(new): 0  or x: new -> PS
+A1: x(put(PS, value): or PUT: PS x VALUE -> PS 
+A2: x(remove(PS, value)) or REMOVE: PS x VALUE -> PS
+A3: x(get(PS, value)) or GET: PS x VALUE -> INTEGER
+A4: x(size(PS)) or SIZE: PS -> INTEGER
+
