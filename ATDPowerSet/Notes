@@ -1,0 +1,8 @@
+На счёт множества совсем мимо.
+
+Все стандартные операции наследуем от ADTHashTable
+
+Основные методы ATDPowerSet: 
+
+PowerSet Intersection, PowerSet Union, PowerSet Difference , bool isSubSet
+пост и пред условий не требуется на этих операциях так как они замкнуты: коррекнты и полностью определены
