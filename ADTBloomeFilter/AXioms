@@ -1,0 +1,4 @@
+x(new): o or NEW: -> FB (FIlter Bloome)
+x(put(FB, value)): or PUT: FB x VALUE -> FB
+
+x(get(FB, VALUE)): or GET: FB x VALUE -> Boolean
